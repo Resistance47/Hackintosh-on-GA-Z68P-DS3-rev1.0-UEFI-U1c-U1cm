@@ -1,0 +1,4 @@
+Wir werden hier auf der schon etwas in die Jahre gekommener Hardware das neue MacOS BigSur11.4 zum laufen bringen, und zwar so "Vanilla" wie nur irgentwie möglich. Wir gebrauchen dafür den OpenCore 0.70 Bootfile Loader, da diese Methode einem echten Mac am nächsten kommt.
+Dafür werden wir das Board vom ursprünglichem legacyBIOS auf ein gemoddetes UEFI aufrüsten. Das Beta-UEFI U1a gab es mal eine Zeit lang auf der Gigabyte Homepage, wurde dann aber wieder herausgenommen - wahrscheinlich weil es sehr buggy war. Das hier verwendete UEFI U1c stammt ursprünglich vom Gigabyte Support. 
+Beim U1cm wurde noch ein Treiber für NVe Disks integriert. Zusätzlich wurden die Full Screen Bootlogos verändert, so das gleich beim Bootbeginn ein Apple Logo erscheint.
+Welches der beiden UEFI´s ihr verwendet bleibt euch überlassen. Ich habe mich für das U1cm entschieden, obwohl ich keine NVe in gebrauch habe.
